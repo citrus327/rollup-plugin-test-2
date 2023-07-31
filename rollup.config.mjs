@@ -14,6 +14,7 @@ import alias from "@rollup/plugin-alias";
 import del from "rollup-plugin-delete";
 import panda from "@pandacss/dev/postcss";
 import cascade from "@csstools/postcss-cascade-layers";
+import first from "./plugins/first.mjs";
 
 const pkg = JSON.parse(
   fs.readFileSync(path.resolve(process.cwd(), "./package.json"), {
@@ -48,7 +49,8 @@ const plugins = [
     minimize: true,
     extract: "index.css",
   }),
-  terser(),
+  // terser(),
+  first(),
 ];
 
 export default defineConfig({
