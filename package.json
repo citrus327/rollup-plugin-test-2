@@ -29,7 +29,7 @@
   "devDependencies": {
     "@blizzbolts/docit": "^0.11.0",
     "@csstools/postcss-cascade-layers": "^4.0.0",
-    "@pandacss/dev": "^0.9.0",
+    "@pandacss/dev": "^0.22.0",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-commonjs": "^25.0.3",
     "@rollup/plugin-json": "^6.0.0",
